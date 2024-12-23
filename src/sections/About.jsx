@@ -20,7 +20,7 @@ const About = () => {
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+                        <img src="/assets/grid1.jpg" alt="grid-1" className="w-full h-[350px] sm:h-[276px]  object-contain" />
 
                         <div>
                             <p className="grid-headtext">Hi, I’m Mobolaji Bada</p>
@@ -34,7 +34,7 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <video src="/assets/techstack.mp4" autoPlay muted playsInline loop className="w-full sm:h-[276px] p-40 sm:p-12 h-fit object-contain rounded-sm" />
+                        <video src="/assets/techstack.mp4" autoPlay muted playsInline loop className="w-full h-[276px] p-12 object-contain rounded-sm" />
 
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
