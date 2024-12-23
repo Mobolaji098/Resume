@@ -39,7 +39,7 @@ const Hero = () => {
                     </HeroCamera>
                     <group>
                 <Target position={sizes.targetPosition} />
-                        <ReactLogo position={sizes.reactLogoPosition}  scale={0.6} />
+                        {/*<ReactLogo position={sizes.reactLogoPosition}  scale={0.2} />*/}
                         <Cube position={sizes.cubePosition}/>
                         <Rings position={sizes.ringPosition}/>
                         <EffectComposer>
