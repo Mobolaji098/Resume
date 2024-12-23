@@ -24,27 +24,28 @@ export const navLinks = [
 export const clientReviews = [
     {
         id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
-        img: 'assets/review1.png',
+        name: 'AkinKunmi Akinyele',
+        position: 'CEO at Barterway',
+        img: 'assets/akin.jpeg',
         review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+            'Bolaji transformed our outdated website into a modern, ' +
+            'user-friendly platform and designed a scalable, resilient backend system. His work has boosted Barterway\'s performance and reliability, contributing to our $700,000 valuation. Highly recommend him for both front-end and backend projects',
     },
     {
         id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
-        img: 'assets/review2.png',
+        name: 'Eyitayo Ajayi',
+        position: 'Founder of Promade',
+        img: 'assets/tayo.png',
         review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+            'Mobolaji’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our AI driven Immigration program platform, accelerating our launch timeline. He’s a true professional! Fantastic work.',
     },
     {
         id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
-        img: 'assets/review3.png',
+        name: 'Godwin Ezea',
+        position: 'COO of GAM Technology Partners',
+        img: 'assets/godwin.jpeg',
         review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+            'I can’t say enough good things about Bolaji. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
     },
     {
         id: 4,
@@ -52,7 +53,7 @@ export const clientReviews = [
         position: 'CEO of BrightStar Enterprises',
         img: 'assets/review4.png',
         review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+            'Mobolaji was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
     },
 ];
 
@@ -134,14 +135,14 @@ export const myProjects = [
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        title: 'Barterway - Exchange made easy',
+        desc: 'Barterway is a platform that allows users to exchange goods and services without using money. A comprehensive SaaS solution showcasing expertise in both front-end and back-end development. The landing page provides an engaging, modern design that highlights Barterway’s innovative barter system.',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-        githref:'https://github.com/Mobolaji098/Image-AI',
-        texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+            'The landing page was built using Next.js and Tailwind CSS, showcasing advanced styling and responsive design. As the backend developer, I implemented the server-side logic using Express.js, hosted the application on AWS Elastic Beanstalk, and managed data storage with MongoDB and Redis for efficient performance and scalability.',
+        href: 'https://www.barterway.tech',
+        githref:'https://www.barterway.tech',
+        texture: '/textures/project/barterway.mp4',
+        logo: '/assets/barterway.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
@@ -176,7 +177,7 @@ export const myProjects = [
         desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
         subdesc:
             'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        href: 'https://www.youtube.com/',
         githref:'https://github.com/Mobolaji098/Image-AI',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
@@ -302,11 +303,11 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: '/assets/framer.svg',
+        name: 'GSAP',
+        pos: 'Animation Specialist',
+        duration: '2023 - Present',
+        title: "GSAP is my tool of choice for creating high-performance animations and smooth transitions. I use it to enhance user interfaces, making them more dynamic and engaging.",
+        icon: '/assets/gsap.png',
         animation: 'victory',
     },
     {
@@ -326,5 +327,32 @@ export const workExperiences = [
         title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
         icon: '/assets/notion.svg',
         animation: 'salute',
+    },
+    {
+        id: 4,
+        name: 'Next.js',
+        pos: 'Full-Stack Developer',
+        duration: '2022 - Present',
+        title: "Next.js allows me to build scalable, SEO-friendly web applications. Its powerful features, like server-side rendering and API routes, make it an indispensable part of my development stack.",
+        icon: '/assets/nextjs.png',
+        animation: 'clapping',
+    },
+    {
+        id: 5,
+        name: 'Express.js',
+        pos: 'Backend Developer',
+        duration: '2021 - Present',
+        title: "Express.js is my go-to framework for building robust, scalable backend systems. Its flexibility and efficiency enable me to develop APIs and handle complex server-side logic effortlessly.",
+        icon: '/assets/express.png',
+        animation: 'salute',
+    },
+    {
+        id: 6,
+        name: 'AWS',
+        pos: 'Cloud Solutions Architect',
+        duration: '2022 - Present',
+        title: "AWS powers my applications with reliable and scalable cloud services. From hosting web apps to managing databases, I leverage AWS to ensure high availability and performance.",
+        icon: '/assets/aws.png',
+        animation: 'victory',
     },
 ];

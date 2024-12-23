@@ -25,7 +25,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I’m Mobolaji Bada</p>
                             <p className="grid-subtext">
-                                With 4 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
+                                With 5 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
                                 and responsive websites.
                             </p>
                         </div>
@@ -34,7 +34,7 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <video src="/assets/techstack.mp4" autoPlay muted loop className="w-full sm:h-[276px] p-40 sm:p-12 h-fit object-contain rounded-sm" />
+                        <video src="/assets/techstack.mp4" autoPlay muted playsInline loop className="w-full sm:h-[276px] p-40 sm:p-12 h-fit object-contain rounded-sm" />
 
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
@@ -64,7 +64,9 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
                             <p className="grid-subtext">I&apos;m based in Nigeria and open to remote work worldwide.</p>
+                            <a href={'#contact'}>
                             <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+                            </a>
                         </div>
                     </div>
                 </div>
